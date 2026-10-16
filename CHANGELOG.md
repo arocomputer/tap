@@ -61,8 +61,8 @@
   passed; the tag builds checksummed archives for macOS and Linux with build provenance, release
   notes from the changelog, the Homebrew formula on main, and an install of the release as people
   will run it. Install with
-  `curl -fsSL https://raw.githubusercontent.com/fschrhunt/tap/main/install.sh | sh` or
-  `brew tap fschrhunt/tap https://github.com/fschrhunt/tap && brew install fschrhunt/tap/tap`.
+  `curl -fsSL https://raw.githubusercontent.com/arocomputer/tap/main/install.sh | sh` or
+  `brew tap arocomputer/tap https://github.com/arocomputer/tap && brew install arocomputer/tap/tap`.
 - Settings, in a `settings` block of `servers.json` and with `tap config`: `tap config` shows
   each one, its value and where it comes from; `tap config set` and `unset` change them, and
   `--server` keeps `start` or `idleTimeoutMs` for one server. A mistyped setting is refused with

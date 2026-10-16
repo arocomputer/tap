@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fschrhunt/tap/internal/wire"
+	"github.com/arocomputer/tap/internal/wire"
 )
 
 // TestRetainedNumbers preserves integers beyond float64 precision during inspection and transfer.

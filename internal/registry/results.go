@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fschrhunt/tap/internal/wire"
+	"github.com/arocomputer/tap/internal/wire"
 )
 
 const resultTTL = 10 * time.Minute

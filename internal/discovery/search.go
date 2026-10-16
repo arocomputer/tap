@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/fschrhunt/tap/internal/wire"
+	"github.com/arocomputer/tap/internal/wire"
 )
 
 // Tool is an immutable catalog record; ID is the exact downstream routing address.

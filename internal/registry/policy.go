@@ -5,7 +5,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/fschrhunt/tap/internal/wire"
+	"github.com/arocomputer/tap/internal/wire"
 )
 
 // Failure classifies gateway failures without guessing whether a downstream write succeeded.

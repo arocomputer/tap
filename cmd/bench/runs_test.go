@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/fschrhunt/tap/internal/discovery"
-	"github.com/fschrhunt/tap/internal/wire"
+	"github.com/arocomputer/tap/internal/discovery"
+	"github.com/arocomputer/tap/internal/wire"
 	"testing"
 )
 
