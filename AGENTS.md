@@ -37,7 +37,7 @@ or modify a personal server config for tests.
 - `docs/`: user docs with examples; update them with any user-visible change.
 - `install.sh` and `tap.rb`: the checksum-verified installer and the Homebrew formula the
   release workflow regenerates; tap's repository is its own tap.
-- `scripts/`: `release.sh` (name the changelog section, then tag once CI passes) and
+- `scripts/`: `release.sh` (name the changelog section, then dispatch Actions after CI passes) and
   `formula.sh` (write `tap.rb` from a release's checksums).
 - `assets/`: the logo, wordmark and lockup SVGs in black and white; see `assets/README.md`.
 
